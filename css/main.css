@@ -97,6 +97,10 @@ body {
   line-height: 1.3;
   font-weight: 700; }
 
+.product {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 3fr) 1fr; }
+
 .cart-header {
   display: grid;
   grid-template-columns: 2fr repeat(3, 3fr) 1fr;
