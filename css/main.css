@@ -112,4 +112,16 @@ body {
 .catr-header__title {
   grid-column-start: 2; }
 
+.cart-footer {
+  display: grid;
+  grid-template-columns: 5fr 3fr 4fr;
+  padding: 19px 0;
+  background-color: #EAEFF2;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%; }
+
+.cart-footer__count {
+  grid-column-start: 2; }
+
 /*# sourceMappingURL=main.css.map */
