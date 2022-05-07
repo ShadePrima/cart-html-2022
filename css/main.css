@@ -80,7 +80,7 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto; }
@@ -100,6 +100,8 @@ body {
 .product {
   display: grid;
   grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(126, 155, 189, 0.3);
   font-weight: 600;
   font-size: 18px;
   line-height: 130%; }
