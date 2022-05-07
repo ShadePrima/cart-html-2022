@@ -1,13 +1,22 @@
 .product {
     display: grid;
-    grid-template-columns: 1fr repeat(3, 3fr) 1fr;
-    
+    grid-template-columns: 2fr repeat(3, 3fr) 1fr;
 
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+     
+}
+
+.product > * {
+    align-self: center;
 }
 
 
 .product__img {
 
+
+    justify-self: center;
  }
 
 
@@ -28,5 +37,5 @@
 
 
 .product__control {
-
+    justify-self: center;
 }
