@@ -1,0 +1,34 @@
+.cart-header {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+    
+
+ 
+
+    padding: 22px 0;
+    background-color: #EAEFF2;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 120%;
+    /* identical to box height, or 16px */
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+}  
+
+
+.catr-header__title {
+    grid-column-start: 2;
+}
+ 
+
+.cart-header__count { 
+
+}
+
+
+.cart-headre__cost {
+
+}
